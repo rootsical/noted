@@ -1,13 +1,18 @@
-Info sources:
+#MARKDOWN
+
+##info sources:
 https://help.github.com/articles/markdown-basics/
 https://help.github.com/articles/github-flavored-markdown/
 
-List items:
-Precede with star or a dash.
+list items:
+precede with star or a dash.
 
-Create link:
-First, put link text in square brackets.
-Then, link url in round brackets.
+create link:
+first, put link text in square brackets.
+then, link url in round brackets.
 
-Inline code:
-Single back ticks.
+inline code:
+single back ticks.
+
+headings:
+precede with number of hashes.

@@ -13,3 +13,7 @@ NPM MODULES:
 >npm install --save-dev
 
 [TO DO](./docs/todo.md)
+
+LEARNING:
+[git and github](./docs/git.md)
+
