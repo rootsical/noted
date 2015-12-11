@@ -17,5 +17,5 @@ npm install --save
 
 ## DEVELOPMENT DEPENDENCIES
 ```
-npm install --save-dev "gulpjs/gulp#4.0" babel-core babel-polyfill babel-preset-es2015 gulp-babel gulp-plumber gulp-regex-rename
+npm install --save-dev "gulpjs/gulp#4.0" babel-core babel-polyfill babel-preset-es2015 gulp-babel gulp-plumber gulp-regex-rename gulp-nodemon
 ```
