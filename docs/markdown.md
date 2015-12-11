@@ -18,4 +18,4 @@ single back ticks.
 precede with number of hashes.
 
 ###task list:
-precede with dash and open/close square brackets. completed tasks have start inside square brackets.
+precede with dash and open/close square brackets. completed tasks have an `x` inside square brackets.

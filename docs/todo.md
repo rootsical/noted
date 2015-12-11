@@ -14,4 +14,4 @@ TO DO (Long term):
 - [ ] Learn how to use electron
 
 DONE:
-- [*] Learn how to host project on github
+- [x] Learn how to host project on github

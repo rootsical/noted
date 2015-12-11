@@ -1,5 +1,5 @@
 #PROJECT STRUCTURE
- 
+``` 
 app/  
 	main.js  
 docs/  
@@ -13,4 +13,5 @@ test/
 node_modules/  
 .gitignore  
 package.json  
-gulpfile.babel.js  
+gulpfile.babel.js
+```  
