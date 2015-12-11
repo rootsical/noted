@@ -70,6 +70,11 @@ instead of editing local .git/config file you can do:
 ##GENERAL
 - remove fie from staging index  
 `git reset HEAD -- <path/to/file>`
+- remove directory from everywhere  
+```
+git rm -r <path/of/directory>
+git commit -m "<commit message>"
+```
 
 ##BRANCHES and REMOTES
 - origins/master is local branch that references remote branch called master
