@@ -1,6 +1,6 @@
 {
   "name": "noted",
-  "version": "1.0.0",
+  "version": "0.01",
   "description": "application to keep track of notes",
   "main": "app/main.js",
   "directories": {
