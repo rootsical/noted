@@ -14,8 +14,6 @@ color.ui true
 (to get coloured output in terminal)
 core.excludesfile ~/.gitignore_global
 (if you want to have user specific gitignore)
-core.autocrlf input
-(use correct line endings)
 push.default simple
 (not sure what it does but avoids annoying message on doing `git push`)
 
