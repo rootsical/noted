@@ -12,10 +12,10 @@ npm install -g "gulpjs/gulp-cli#4.0"
 
 ## DEPENDENCIES
 ```
->npm install --save
+npm install --save
 ```
 
 ## DEVELOPMENT DEPENDENCIES
 ```
->npm install --save-dev "gulpjs/gulp#4.0" babel-core babel-polyfill babel-preset-es2015 gulp-babel gulp-plumber
+npm install --save-dev "gulpjs/gulp#4.0" babel-core babel-polyfill babel-preset-es2015 gulp-babel gulp-plumber gulp-regex-rename
 ```
