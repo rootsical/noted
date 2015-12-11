@@ -18,4 +18,5 @@ Uses:
 - [gulp 4](./docs/gulp_4.md)
 - [babel 6](./docs/babel_6.md)
 - [gulp and nodemon](./docs/gulp_nodemon.md)
+- [electron](docs/electron.md)
 

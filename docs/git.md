@@ -94,7 +94,8 @@ to create branch and then check it out:
 `git checkout -b <name of branch>`
 
 to put project onto remote repository now you can do:  
-`git push -u origin master`
+`git push -u origin master`  
+(`-u` is equivalent to `--set-upstream`)
 
 or if you are on another branch:  
 `git push -u origin <name_of_branch>`
