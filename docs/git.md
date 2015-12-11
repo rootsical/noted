@@ -67,12 +67,6 @@ the rest after the colon is the github repository name ending in .git, in this c
 instead of editing local .git/config file you can do:  
 `git remote add origin rootsical-github:rootsical/noted.git`
 
-to put project onto remote repository now you can do:  
-`git push -u origin master`
-
-or if you are on another branch:  
-`git push -u origin <name_of_branch>`
-
 ##BRANCHES and REMOTES
 - origins/master is local branch that references remote branch called master
 - you still have a local branch called master
@@ -88,6 +82,12 @@ to checkout a branch:
 
 to create branch and then check it out:  
 `git checkout -b <name of branch>`
+
+to put project onto remote repository now you can do:  
+`git push -u origin master`
+
+or if you are on another branch:  
+`git push -u origin <name_of_branch>`
 
 ##MERGING
 info source:  
