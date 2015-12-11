@@ -80,9 +80,18 @@ to put project onto remote repository now you can do:
 or if you are on another branch:  
 `git push -u origin <name_of_branch>`
 
-merge branch:  
+##MERGING
+info source:  
+http://stackoverflow.com/questions/6127328/how-can-i-delete-all-git-branches-which-have-been-merged
 
-
-
-
+- checkout the receiving branch  
+`git checkout <name of branch`
+- merge  
+`git merge <name of branch`
+- delete local branch  
+`git branch --delete <name of branch>`
+- delete remote branch  
+`git push --delete origin <name of branch>`
+- prune remote tracking branches  
+`git remote prune origin`
 
