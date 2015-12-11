@@ -1,10 +1,8 @@
 TO DO (Now):
-- [ ] Initalise project with NPM
 - [ ] Get project ready with gulp 4 and babel 6
 
 TO DO (Long term):
 - [ ] Learn git to manage project
-- [ ] Create a bootstrap to use in other projects
 - [ ] Learn ES6 javascript
 - [ ] Learn functional programming
 - [ ] Learn how to use Gun DB as graph database
@@ -14,4 +12,8 @@ TO DO (Long term):
 
 DONE:
 - [x] ~~Learn how to host project on github~~
+- [x] ~~Initalise project with NPM~~
 - [x] ~~Learn basic markdown to document~~
+
+ABANDONES:
+- [ ] ~~Create a bootstrap to use in other projects~~

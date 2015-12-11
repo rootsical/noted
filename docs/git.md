@@ -67,6 +67,10 @@ the rest after the colon is the github repository name ending in .git, in this c
 instead of editing local .git/config file you can do:  
 `git remote add origin rootsical-github:rootsical/noted.git`
 
+##GENERAL
+- remove fie from staging index  
+`git reset HEAD -- <path/to/file>`
+
 ##BRANCHES and REMOTES
 - origins/master is local branch that references remote branch called master
 - you still have a local branch called master

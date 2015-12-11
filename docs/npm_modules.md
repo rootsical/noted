@@ -17,5 +17,5 @@ npm install -g "gulpjs/gulp-cli#4.0"
 
 ## DEVELOPMENT DEPENDENCIES
 ```
->npm install --save-dev "gulpjs/gulp#4.0" babel-core babel-polyfill babel-preset-es2015
+>npm install --save-dev "gulpjs/gulp#4.0" babel-core babel-polyfill babel-preset-es2015 gulp-babel gulp-plumber
 ```
