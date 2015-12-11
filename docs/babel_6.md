@@ -6,7 +6,7 @@
 - gulp-babel is necessary for use with gulp as is gulp-plumber which suppresses errors 
 
 ###gulpfile  
-```
+```javascript
 //gulpfile.babel.js
 import babel from 'gulp-babel';
 import plumber from 'gulp-plumber';
@@ -21,7 +21,7 @@ gulp.task('transpile', function() {
 
 ###.babelrc  
 create .babelrc file
-```
+```javascript
 //.babelrc
 {
 "presets": ["es2015"]
