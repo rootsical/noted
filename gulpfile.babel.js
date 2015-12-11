@@ -9,7 +9,7 @@ gulp.task('transpile', function() {
     .pipe(plumber())
     .pipe(babel())
     .pipe(rename(/\.src\.js$/, '.js'))
-    .pipe(gulp.dest('dist'));
+    .pipe(gulp.dest('app'));
 });
 
 gulp.task('watch', function(){
