@@ -19,9 +19,14 @@ import rename from 'gulp-regex-rename';
 gulp.task('transpile', function() {
   return gulp.src(['src/*.src.js', {base: 'src'})
     .pipe(babel())
-    .pipe(rename(\/\.src\.js$\/, '.js'))
+    .pipe(rename(/\.src.\.js$/, '.js'))
     .pipe(gulp.dest('dist'));
 });
 ```
+
+###cult
+to monitor gulpfile and reload gulp  
+https://github.com/typicode/cult
+
 
 
