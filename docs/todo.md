@@ -1,4 +1,4 @@
-TO DO (Now):
+TO DO (now):
 
 TO DO (long term):
 - [ ] learn ES6 javascript
