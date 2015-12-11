@@ -4,15 +4,18 @@
 https://help.github.com/articles/markdown-basics/
 https://help.github.com/articles/github-flavored-markdown/
 
-list items:
+###list items:
 precede with star or a dash.
 
-create link:
-first, put link text in square brackets.
+###create link:
+first, put link text in square brackets.  
 then, link url in round brackets.
 
-inline code:
+###inline code:
 single back ticks.
 
-headings:
+###headings:
 precede with number of hashes.
+
+###task list:
+precede with dash and open/close square brackets. completed tasks have start inside square brackets.
