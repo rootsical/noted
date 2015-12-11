@@ -1,4 +1,4 @@
-# NOTED
+#NOTED
 Application to keep track of notes.
 
 Uses:

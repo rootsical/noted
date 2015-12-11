@@ -38,14 +38,14 @@ logs
 databases (db/)
 ```
 
-now you can initialise git in project root:
+now you can initialise git in project root:  
 `git init`
 
 now set username and email  
 `git config user.name "rootsical"`  
 `git config user.email "rootsical@gmail.com"``
 
-if you use the wrong username and email for the last commit, you can reset the git config and then do:
+if you use the wrong username and email for the last commit, you can reset the git config and then do:  
 `git commit --amend --reset-author`
 
 ##BRANCHES and REMOTES
@@ -64,7 +64,7 @@ locally in project root edit
 add the following:
 ```
 [remote "origin"]
-	url = rootsical-github:rootsical/01-travis-test-01.git
+	url = rootsical-github:rootsical/noted.git
 ```
 
 rootsical-github is the name of the relevant host in the .ssh configuration  
@@ -80,6 +80,7 @@ to put project onto remote repository now you can do:
 or if you are on another branch:  
 `git push -u origin <name_of_branch>`
 
+merge branch:  
 
 
 

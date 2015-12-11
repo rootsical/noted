@@ -19,3 +19,9 @@ precede with number of hashes.
 
 ###task list:
 precede with dash and open/close square brackets. completed tasks have an `x` inside square brackets.
+
+###code block:
+precede with 3 back ticks and end with 3 back ticks.
+
+###new line
+add 2 spaces at the end of a line

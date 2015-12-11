@@ -6,12 +6,13 @@ docs/
 	github.md  
 	todo.md  
 	markdown.md  
+node_modules/  
 src/  
 	main.src.js  
 test/  
 	main.test.js  
-node_modules/  
+.gitattributes  
 .gitignore  
-package.json  
 gulpfile.babel.js
+package.json  
 ```  
