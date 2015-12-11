@@ -25,3 +25,6 @@ precede with 3 back ticks and end with 3 back ticks.
 
 ###new line
 add 2 spaces at the end of a line
+
+###strike through
+2 tildes before and after

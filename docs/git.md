@@ -48,13 +48,6 @@ now set username and email
 if you use the wrong username and email for the last commit, you can reset the git config and then do:  
 `git commit --amend --reset-author`
 
-##BRANCHES and REMOTES
-origins/master is local branch that references remote branch called master  
-you still have a local branch called master  
-push will send local branch info to remote and origin  
-fetch will get from remote and put in origin but not local  
-merge will get from origin and put into local  
-
 ##GITHUB SETUP
 create new repository on github
 
@@ -79,6 +72,22 @@ to put project onto remote repository now you can do:
 
 or if you are on another branch:  
 `git push -u origin <name_of_branch>`
+
+##BRANCHES and REMOTES
+- origins/master is local branch that references remote branch called master
+- you still have a local branch called master
+- push will send local branch info to remote and origin
+- fetch will get from remote and put in origin but not local
+- merge will get from origin and put into local
+
+to create a new branch:  
+`git branch <name of branch>`
+
+to checkout a branch:  
+`git checkout <name of branch`
+
+to create branch and then check it out:  
+`git checkout -b <name of branch>`
 
 ##MERGING
 info source:  

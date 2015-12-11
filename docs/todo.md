@@ -1,5 +1,4 @@
 TO DO (Now):
-- [ ] Learn markdown to document
 - [ ] Initalise project with NPM
 - [ ] Get project ready with gulp 4 and babel 6
 
@@ -14,4 +13,5 @@ TO DO (Long term):
 - [ ] Learn how to use electron
 
 DONE:
-- [x] Learn how to host project on github
+- [x] ~~Learn how to host project on github~~
+- [x] ~~Learn basic markdown to document~~
