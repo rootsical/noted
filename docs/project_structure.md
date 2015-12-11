@@ -1,6 +1,6 @@
 PROJECT STRUCTURE:
-app/  
-	main.js  
+app/
+	main.js
 docs/
 	github.md
 	todo.md
