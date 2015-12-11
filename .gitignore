@@ -1,0 +1,9 @@
+# GIT IGNORE
+#compiled source code
+app/
+
+#packages
+node_modules/
+
+#databases
+db/
