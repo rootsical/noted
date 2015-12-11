@@ -1,0 +1,23 @@
+{
+  "name": "noted",
+  "version": "1.0.0",
+  "description": "application to keep track of notes",
+  "main": "app/main.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "rootsical-github:rootsical/noted.git"
+  },
+  "keywords": [
+    "notes",
+    "\"graph",
+    "database\""
+  ],
+  "author": "rootsical",
+  "license": "ISC"
+}
