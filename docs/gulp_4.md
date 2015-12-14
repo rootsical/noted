@@ -17,7 +17,7 @@ create gulpfile to work with babel 6:
 import rename from 'gulp-regex-rename';
 
 gulp.task('transpile', function() {
-  return gulp.src(['src/*.src.js', {base: 'src'})
+  return gulp.src(['src/*.src.js'], {base: 'src'})
     .pipe(babel())
     .pipe(rename(/\.src.\.js$/, '.js'))
     .pipe(gulp.dest('dist'));
