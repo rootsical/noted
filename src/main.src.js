@@ -20,14 +20,14 @@ app.on('ready', () => {
 		width: 800,
 		height: 600
 	});
- 
+
 	client = electronConnect.client.create(mainWindow);
-	
+
 	// console.log('here is the file name...');
 	// console.log('file://' + __dirname + '/views/index.html');
 	// file:///root/DEV/JS/noted/app/views/index.html
 	mainWindow.loadURL('file://' + __dirname + '/views/index.html');
-	
+
 	mainWindow.on('closed', () => {
 		mainWindow = null;
 	});
