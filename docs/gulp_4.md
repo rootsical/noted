@@ -1,17 +1,17 @@
 GULP 4 SETUP
 ============
 
-### global
+### global ###
 `npm install -g "gulpjs/gulp-cli#4.0"`
 
-###local
+### local ###
 `npm install --save-dev "gulpjs/gulp#4.0"`
 
-###gulpfile
+### gulpfile ###
 create gulpfile to work with babel 6:  
 `touch gulpfile.babel.js`
 
-###gulp-regex-rename
+### gulp-regex-rename ###
 `npm install --save-dev gulp-regex-rename`  
 - example  
 ```js
@@ -25,10 +25,6 @@ gulp.task('transpile', function() {
 });
 ```
 
-###cult
+### cult ###
 to monitor gulpfile and reload gulp  
 https://github.com/typicode/cult
-
-
-
-
