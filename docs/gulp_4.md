@@ -1,4 +1,5 @@
-# GULP 4 SETUP
+GULP 4 SETUP
+============
 
 ### global
 `npm install -g "gulpjs/gulp-cli#4.0"`
@@ -12,8 +13,8 @@ create gulpfile to work with babel 6:
 
 ###gulp-regex-rename
 `npm install --save-dev gulp-regex-rename`  
-- example
-```javascript
+- example  
+```js
 import rename from 'gulp-regex-rename';
 
 gulp.task('transpile', function() {
