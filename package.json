@@ -2,7 +2,7 @@
   "name": "noted",
   "version": "0.0.1",
   "description": "application to keep track of notes",
-  "main": "app/main.js",
+  "main": "lib/main/app.js",
   "directories": {
     "doc": "docs"
   },
@@ -18,7 +18,7 @@
     "graph database"
   ],
   "author": "rootsical",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.3.17",
     "babel-polyfill": "^6.3.14",
