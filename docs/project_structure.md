@@ -1,6 +1,5 @@
 #PROJECT STRUCTURE
-``` 
-common/  
+```
 db/  
 docs/  
   github.md  
