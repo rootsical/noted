@@ -1,8 +1,7 @@
 #BABEL 6 SETUP
 
 ###install babel
-`npm install --save-dev babel-core babel-polyfill babel-preset-es2015 gulp-babel gulp-plumber`  
-- babel-polyfill is necessary for generators)  
+`npm install --save-dev babel-core babel-plugin-transform-es2015-modules-commonjs gulp-babel gulp-plumber`  
 - gulp-babel is necessary for use with gulp as is gulp-plumber which suppresses errors 
 
 ###gulpfile  
@@ -24,6 +23,6 @@ create .babelrc file
 ```javascript
 //.babelrc
 {
-"presets": ["es2015"]
+  "plugins": ["transform-es2015-modules-commonjs"]
 }
 ```

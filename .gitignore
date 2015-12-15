@@ -1,6 +1,6 @@
 # GIT IGNORE
 #compiled source code
-app/
+lib/
 
 #packages
 node_modules/
