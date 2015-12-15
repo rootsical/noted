@@ -1,4 +1,5 @@
-#PROJECT STRUCTURE
+PROJECT STRUCTURE
+=================
 ```
 db/  
 docs/  

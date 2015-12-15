@@ -1,12 +1,18 @@
 TO DO (now):
+------------
+- [ ] mocha main process unit tests (node)
+- [ ] mocha renderer process unit tests (browser)
 
 TO DO (long term):
-- [ ] learn ES6 javascript
+------------------
+- [ ] look at other testing possibilities: webdriver, nock, supertest
 - [ ] learn functional programming
 - [ ] learn how to use Gun DB as graph database
 - [ ] learn how to do testing for an application
 
 DONE:
+-----
+- [x] ~~learn basic ES6 javascript~~
 - [x] ~~learn how to host project on github~~
 - [x] ~~initalise project with NPM~~
 - [x] ~~learn basic markdown to document~~
@@ -16,4 +22,7 @@ DONE:
 - [x] ~~learn simple gulp for task runner purposes~~
 
 ABANDONED:
+----------
 - [ ] ~~create bootstrap to use in other projects~~
+- [ ] ~~markdown linting in sublime text~~
+- [ ] ~~html5 linting in sublime text~~

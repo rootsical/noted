@@ -12,7 +12,7 @@ npm install -g 'gulpjs/gulp-cli#4.0' electron-prebuilt cult
 
 ## DEPENDENCIES
 ```
-npm install --save es6-module-loader
+npm install --save systemjs
 ```
 
 ## DEVELOPMENT DEPENDENCIES
