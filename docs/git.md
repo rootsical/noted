@@ -69,7 +69,8 @@ the rest after the colon is the github repository name ending in .git, in this c
 instead of editing local .git/config file you can do:  
 `git remote add origin rootsical-github:rootsical/noted.git`
 
-##GENERAL
+GENERAL
+-------
 - remove fie from staging index  
 `git reset HEAD -- <path/to/file>`
 - remove directory  
@@ -79,7 +80,15 @@ git commit -m "<commit message>"
 ```
 (if directory is untracked, just remove directory manually)
 
-##BRANCHES and REMOTES
+if git is not ignoring a file you would like to ignore, first make sure it's in .gitignore.  
+then:  
+`git rm --cached <filename>`  
+`git commit -m "ignore file"`
+
+
+
+BRANCHES and REMOTES
+--------------------
 - origins/master is local branch that references remote branch called master
 - you still have a local branch called master
 - push will send local branch info to remote and origin
@@ -102,7 +111,8 @@ to put project onto remote repository now you can do:
 or if you are on another branch:  
 `git push -u origin <name_of_branch>`
 
-##MERGING
+MERGING
+-------
 info source:  
 http://stackoverflow.com/questions/6127328/how-can-i-delete-all-git-branches-which-have-been-merged
 
