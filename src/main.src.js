@@ -14,6 +14,11 @@ app.on('will-quit', () => {
   console.log('quitting');
 });
 
+/**
+ * When the electron app is ready, sort out the browser window
+ * @param  {String} event event for app to listen for
+ * @param  {function} callback function called when event occurs
+ */
 app.on('ready', () => {
   //Menu.setApplicationMenu(appMenu);
   mainWindow = new BrowserWindow({
@@ -28,6 +33,11 @@ app.on('ready', () => {
   // file:///root/DEV/JS/noted/app/views/index.html
   mainWindow.loadURL('file://' + __dirname + '/views/index.html');
 
+  /**
+   * When the main window is called, set unused variable to null
+   * @param  {String} event event for mainWindow to listen for
+   * @param  {Function} callback function called when event occurs
+   */
   mainWindow.on('closed', () => {
     mainWindow = null;
   });
