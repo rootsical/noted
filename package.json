@@ -18,20 +18,22 @@
     "graph database"
   ],
   "author": {
-    "name": "rootsical", 
+    "name": "rootsical",
     "email": "rootsical@gmail.com"
   },
   "license": "MIT",
   "devDependencies": {
-    "babel-core": "^6.3.17",
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.3.16",
+    "babel-core": "^5.8.34",
     "electron-connect": "^0.3.3",
     "electron-prebuilt": "^0.36.0",
     "fs-extra": "^0.26.2",
     "gulp": "github:gulpjs/gulp#4.0",
-    "gulp-babel": "^6.1.1",
+    "gulp-babel": "^5.3.0",
     "gulp-nodemon": "^2.0.4",
     "gulp-plumber": "^1.0.1",
     "gulp-regex-rename": "^0.1.0"
+  },
+  "dependencies": {
+    "systemjs": "^0.19.7"
   }
 }
