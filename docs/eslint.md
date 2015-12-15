@@ -7,7 +7,7 @@ install eslint:
 
 initialize project linting (from within project root in directory):  
 `eslint --init`  
-this creates a *.eslintrc.json* file which i rename to *.eslintrc*
+this creates a *.eslintrc.json* file which i rename to *.eslintrc*  
 you can configure settings within this file
 
 to use with sublime text, install these packages:  
