@@ -1,27 +1,33 @@
 #PROJECT STRUCTURE
 ``` 
-app/  
-    views/
-        index.html
-	main.js  
-    package.json 
+common/  
+db/  
 docs/  
-	github.md  
-	todo.md  
-	markdown.md  
-node_modules/  
+  github.md  
+  todo.md  
+  markdown.md  
+lib/  
+  common/
+  main/  
+    app.js  
+  renderer/  
+node_modules/   
 src/  
-    manifest/
-        electron.package.json
-    views/
-        index.src.html
-	main.src.js  
+  main/  
+    app.src.js   
+  stylus/  
+    main.styl
+styles/  
+  main.css  
 test/  
-	main.test.js  
+  main.test.js  
+views/  
+  main.hbs  
 .babelrc  
+.eslintrc  
 .gitattributes  
 .gitignore  
 README.md  
-gulpfile.babel.js
+gulpfile.babel.js  
 package.json 
 ```  
