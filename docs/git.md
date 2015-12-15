@@ -1,6 +1,8 @@
-#GIT
+GIT
+===
 
-##configuration
+configuration
+-------------
 ###user configuration
 `git config --global`
 
@@ -54,7 +56,7 @@ create new repository on github
 locally in project root edit  
 `.git/config`
 
-add the following:
+add the following:  
 ```
 [remote "origin"]
 	url = rootsical-github:rootsical/noted.git
