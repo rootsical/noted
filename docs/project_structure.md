@@ -1,33 +1,32 @@
 PROJECT STRUCTURE
 =================
-```
-db/  
-docs/  
-  github.md  
-  todo.md  
-  markdown.md  
-lib/  
-  common/
-  main/  
-    app.js  
-  renderer/  
-node_modules/   
-src/  
-  main/  
-    app.src.js   
-  stylus/  
-    main.styl
-styles/  
-  main.css  
-test/  
-  main.test.js  
-views/  
-  main.hbs  
-.babelrc  
-.eslintrc  
-.gitattributes  
-.gitignore  
-README.md  
-gulpfile.babel.js  
-package.json 
-```  
+
+- **db/** *database - [GunDB](http://gun.js.org/enterprise/)*
+- **docs/**
+  - github.md  
+  - todo.md  
+  - markdown.md
+- **lib/** *javascript code*
+  - common/
+  - main/
+     - app.js
+  - renderer/
+- **node_modules/** *this is where package dependencies are stored. some packages will also need to be installed globally*
+- **src/**  *contains code that will be transpiled/compiled. ie stylus to css and es2015 using babel*
+  - main/
+     - app.src.js
+  - stylus/
+     - main.styl
+- **styles/** *css compiled from stylus*
+  - main.css
+- **test/** *tests using [electron-mocha](https://github.com/jprichardson/electron-mocha)*
+  - main.test.js
+- **views/** *views are written with handlebars templating engine*
+  - main.hbs
+- .babelrc
+- .gitattributes
+- .gitignore *lists what should be ignored for git repo*
+- README.md  *links to further documentation in the docs dir*
+- gulpfile.babel.js
+- package.json *lists project info and package dependencies*
+

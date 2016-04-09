@@ -1,5 +1,7 @@
 TO DO (now):
 ------------
+- [ ] change npm docs to setup_dependencies
+- [ ] update npm packages after break
 - [ ] mocha main process unit tests (node)
 - [ ] mocha renderer process unit tests (browser)
 
