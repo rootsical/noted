@@ -1,6 +1,15 @@
 import app from 'app';
 import BrowserWindow from 'browser-window';
 import electronConnect from 'electron-connect';
+import electron from 'electron';
+
+
+const ipcMain = electron.ipcMain;
+
+ipcMain.on('asynchronous-message', function(event, arg) {
+  console.log(arg);  // prints "ping"
+  event.sender.send('asynchronous-reply', 'pong');
+});
 
 let mainWindow = null;
 let client = null;
@@ -32,7 +41,7 @@ app.on('ready', () => {
   // console.log('file://' + __dirname + '/views/index.html');
   // file:///root/DEV/JS/noted/app/views/index.html
   mainWindow.loadURL('file://' + __dirname + '../../../views/index.html');
-
+  mainWindow.openDevTools();
   /**
    * When the main window is called, set unused variable to null
    * @param  {String} event event for mainWindow to listen for

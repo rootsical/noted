@@ -3,13 +3,12 @@
 <head>
   <meta charset=utf-8 />
   <title>Electron ES6 Test</title>
-  <script src="../node_modules/babel-core/browser.js"></script>
   <script src="../node_modules/systemjs/dist/system.js"></script>
   <script>
-    System.transpiler = 'babel';
-    System.import('../lib/renderer/testing.js').then(function(message) {
+    System.import('../lib/renderer/testing.js').then(function(m) {
       console.log('module imported');
-      console.log(`message is: ${message}`);
+      console.log(`message is: ${m.message}`);
+      document.write(`node version is: ${m.getVersion()}`);
     });
   </script>
 </head>

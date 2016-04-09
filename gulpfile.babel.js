@@ -9,7 +9,6 @@ import childProcess from 'child_process';
 let spawn = childProcess.spawn;
 let electron = electronConnect.server.create();
 
-
 gulp.task('start', function() {
   electron.start();
 });
