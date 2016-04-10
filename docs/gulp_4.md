@@ -2,10 +2,14 @@ GULP 4 SETUP
 ============
 
 ### global ###
-`npm install -g "gulpjs/gulp-cli#4.0"`
+`npm install -g gulp-cli`
+(The command used to be `npm install -g "gulpjs/gulp-cli#4.0"`).
 
 ### local ###
 `npm install --save-dev "gulpjs/gulp#4.0"`
+
+more info here:  
+https://www.liquidlight.co.uk/blog/article/how-do-i-update-to-gulp-4/
 
 ### gulpfile ###
 create gulpfile to work with babel 6:  
@@ -28,3 +32,4 @@ gulp.task('transpile', function() {
 ### cult ###
 to monitor gulpfile and reload gulp  
 https://github.com/typicode/cult
+>npm install -g gulp cult

@@ -71,7 +71,7 @@ instead of editing local .git/config file you can do:
 
 GENERAL
 -------
-- remove fie from staging index  
+- remove file from staging index  
 `git reset HEAD -- <path/to/file>`
 - remove directory  
 ```
@@ -85,7 +85,16 @@ then:
 `git rm --cached <filename>`  
 `git commit -m "ignore file"`
 
+- add to the previous commit without changing the commit message  
+`git commit --amend --no-edit`
+you shouldn't amend commits that have been pushed to a public repository
 
+- squash some commits together  
+`git rebase -i <commit-to-rebase-from>`
+this will open an editor where you can interactively pick where to squash from.  
+example:  
+`git rebase -i HEAD~2`  
+which will rebase from 2 commits prior to where you currently are.
 
 BRANCHES and REMOTES
 --------------------

@@ -6,9 +6,10 @@ import rename from 'gulp-regex-rename';
 import electronConnect from 'electron-connect';
 import childProcess from 'child_process';
 
+// using cult (https://github.com/typicode/cult) instead of gulp in order to restart gulp on changes to this gulpfile
+
 let spawn = childProcess.spawn;
 let electron = electronConnect.server.create();
-
 
 gulp.task('start', function() {
   electron.start();
