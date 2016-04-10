@@ -21,8 +21,8 @@ PROJECT STRUCTURE
   - main.css
 - **test/** *tests using [electron-mocha](https://github.com/jprichardson/electron-mocha)*
   - main.test.js
-- **views/** *views are written with handlebars templating engine*
-  - main.hbs
+- **views/** *views are written in html but considering handlebars templating engine*
+  - main.index
 - .babelrc
 - .gitattributes
 - .gitignore *lists what should be ignored for git repo*

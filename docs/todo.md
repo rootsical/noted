@@ -1,7 +1,6 @@
 TO DO (now):
 ------------
 - [ ] change npm docs to setup_dependencies
-- [ ] update npm packages after break
 - [ ] mocha main process unit tests (node)
 - [ ] mocha renderer process unit tests (browser)
 
@@ -14,6 +13,7 @@ TO DO (long term):
 
 DONE:
 -----
+- [x] update npm packages after break
 - [x] ~~learn basic ES6 javascript~~
 - [x] ~~learn how to host project on github~~
 - [x] ~~initalise project with NPM~~
