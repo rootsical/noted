@@ -1,4 +1,5 @@
-const ipcRenderer = electron.ipcRenderer;
+
+// const ipcRenderer = electron.ipcRenderer;
 
 
 export let message = "yo!";
