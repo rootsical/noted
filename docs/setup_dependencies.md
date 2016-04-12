@@ -1,5 +1,12 @@
 # NPM
 
+Uses:
+- Electron
+- Babel 6
+- Gulp 4
+- Gun DB
+- SystemJS
+
 ##INITIALISE PROJECT
 ```
 npm init
@@ -10,7 +17,7 @@ npm init
 npm install -g gulp-cli electron-prebuilt mocha electron-mocha cult
 ```
 
-## DEPENDENCIES
+## PROJECT DEPENDENCIES
 ```
 npm install --save systemjs
 ```
@@ -32,7 +39,7 @@ npm install --save-dev \
   fs-extra \
   expect.js
 ```
-# COMMANDS
+# NPM COMMANDS
 to view available package versions:  
 `npm view <package name> versions`
 

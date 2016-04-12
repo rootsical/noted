@@ -1,6 +1,6 @@
 #ELECTRON
 
--install `electron` command globally:  
+- install `electron` command globally:  
 `npm install electron-prebuilt -g`  
 (download seems really slow at times, around 50 kB/s)
 
@@ -33,6 +33,7 @@ gulp.task('watch', function(){
 });
 ```
 
+###learning resources
 - there is some interesting boilerplate here:  
 https://github.com/Quramy/electron-jsx-babel-boilerplate
 

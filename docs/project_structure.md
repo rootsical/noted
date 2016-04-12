@@ -14,7 +14,8 @@ PROJECT STRUCTURE
 - **node_modules/** *this is where package dependencies are stored. some packages will also need to be installed globally*
 - **src/**  *contains code that will be transpiled/compiled. ie stylus to css and es2015 using babel*
   - main/
-     - app.src.js
+     - app.src.js *source code for electron main process*
+  - renderer/ *source code for electron renderer process*
   - stylus/
      - main.styl
 - **styles/** *css compiled from stylus*
