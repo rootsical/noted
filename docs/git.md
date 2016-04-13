@@ -105,13 +105,13 @@ BRANCHES and REMOTES
 - merge will get from origin and put into local
 
 to create a new branch:  
-`git branch <name of branch>`
+`git branch <name_of_branch>`
 
 to checkout a branch:  
-`git checkout <name of branch`
+`git checkout <name_of_branch>`
 
 to create branch and then check it out:  
-`git checkout -b <name of branch>`
+`git checkout -b <name_of_branch>`
 
 to put project onto remote repository now you can do:  
 `git push -u origin master`  
@@ -121,7 +121,18 @@ or if you are on another branch:
 `git push -u origin <name_of_branch>`
 
 to move a branch:  
-`git branch -m <name_of_branch_to_move> <name_of_branch_after_move>
+`git branch -m <name_of_branch_to_move> <name_of_branch_after_move>`
+
+to delete a local branch:  
+`git branch --d <name_of_branch>`  
+(the branch has to have been merged already, use `-D` flag otherwise)
+
+to delete a remote branch:  
+`git push --delete origin <name_of_branch>`
+
+to prune remote tracking branches:  
+`git remote prune origin`
+
 
 MERGING
 -------
@@ -129,13 +140,6 @@ info source:
 http://stackoverflow.com/questions/6127328/how-can-i-delete-all-git-branches-which-have-been-merged
 
 - checkout the receiving branch  
-`git checkout <name of branch`
+`git checkout <name_of_branch>`
 - merge  
-`git merge <name of branch`
-- delete local branch  
-`git branch --delete <name of branch>`
-- delete remote branch  
-`git push --delete origin <name of branch>`
-- prune remote tracking branches  
-`git remote prune origin`
-
+`git merge <name_of_branch>`
