@@ -54,6 +54,30 @@ gulp.task('test:renderer', function(done){
   });
 });
 
+gulp.task('test:main', function(done){
+  let electronMocha = spawn('electron-mocha', [
+    '--require',
+    'babel-core/register', 
+    '--no-timeouts',
+    'test/main'
+  ]);
+
+  // electronMocha.stdout.setEncoding('utf8');
+  electronMocha.stdout.on('data', function (data) {
+    process.stdout.write(data.toString());
+  });
+
+  electronMocha.on('error', function (err) {
+    console.log('Failed to start child process.');
+  });
+
+  electronMocha.on('close', function (code, signal) {
+    // console.log('child process terminated with code: ' + code);
+    // console.log('child process terminated due to receipt of signal: ' + signal);
+    done();
+  });
+});
+
 gulp.task('watch', function() {
   gulp.watch(['src/**/*.src.js'], gulp.series('transpile', electron.restart));
   gulp.watch(['views/**/*.html'], gulp.series(electron.reload));
