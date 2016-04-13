@@ -120,6 +120,9 @@ to put project onto remote repository now you can do:
 or if you are on another branch:  
 `git push -u origin <name_of_branch>`
 
+to move a branch:  
+`git branch -m <name_of_branch_to_move> <name_of_branch_after_move>
+
 MERGING
 -------
 info source:  
