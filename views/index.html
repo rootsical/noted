@@ -3,34 +3,10 @@
 <head>
   <meta charset=utf-8 />
   <title>Electron ES6 Test</title>
-  <script src="../node_modules/systemjs/dist/system.js"></script>
   <script>
-    // // info:
-    // // https://github.com/systemjs/systemjs
-    // System.config({
-    //   baseURL: __dirname + '/',
-    //   map: {
-    //     babel: 'node_modules/babel-core/lib/api/browser.js'
-    //   },
-    //   transpiler: 'babel',
-    //   babelOptions: {
-    //     presets: ['es2015']
-    //   }
-    // });
-    System.import('../lib/renderer/testing.js').then(function(m) {
-      console.log('module imported');
-      console.log('sending message..');
-      m.sendMessage();
-      // console.log(`message is: ${m.message}`);
-      document.write(`node version is: ${m.getVersion()}`);
-    });
-    // 
-    // var m = require('../lib/renderer/testing.js');
-    // console.log('module imported');
-    //   console.log('sending message..');
-    //   m.sendMessage();
-    //   // console.log(`message is: ${m.message}`);
-    //   document.write(`node version is: ${m.getVersion()}`);
+    var m = require('../lib/renderer/testing.js');
+    console.log(m.getVersion());
+    m.sendMessage();
   </script>
 </head>
 <body>

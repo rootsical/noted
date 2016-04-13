@@ -7,8 +7,9 @@ import electron from 'electron';
 const ipcMain = electron.ipcMain;
 
 ipcMain.on('message', function(event, arg) {
-  console.log(arg);  // prints "ping"
-  event.sender.send('reply', 'pong');
+  console.log('message received by main process');
+  console.log(arg);  // prints "hello from renderer!"
+  event.sender.send('reply', 'hello from main!');
 });
 
 let mainWindow = null;
