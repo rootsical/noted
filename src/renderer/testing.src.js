@@ -1,8 +1,7 @@
 
 // info from:
 // http://electron.atom.io/docs/v0.37.5/api/ipc-main/
-import electron from 'electron';
-const ipcRenderer = electron.ipcRenderer;
+import {ipcRenderer} from 'electron';
 
 export let message = "yo!";
 

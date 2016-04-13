@@ -1,10 +1,7 @@
 import app from 'app';
 import BrowserWindow from 'browser-window';
 import electronConnect from 'electron-connect';
-import electron from 'electron';
-
-
-const ipcMain = electron.ipcMain;
+import {ipcMain} from 'electron';
 
 ipcMain.on('message', function(event, arg) {
   console.log('message received by main process');
@@ -36,6 +33,9 @@ app.on('ready', () => {
     height: 600
   });
 
+  // this needs to be changed for production
+  // you could automate this using gulp-replace
+  // https://github.com/lazd/gulp-replace
   client = electronConnect.client.create(mainWindow);
 
   // console.log('here is the file name...');
