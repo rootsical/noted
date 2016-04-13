@@ -6,9 +6,9 @@ import electron from 'electron';
 
 const ipcMain = electron.ipcMain;
 
-ipcMain.on('asynchronous-message', function(event, arg) {
+ipcMain.on('message', function(event, arg) {
   console.log(arg);  // prints "ping"
-  event.sender.send('asynchronous-reply', 'pong');
+  event.sender.send('reply', 'pong');
 });
 
 let mainWindow = null;
