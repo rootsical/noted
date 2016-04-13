@@ -1,8 +1,8 @@
 
 // info from:
 // http://electron.atom.io/docs/v0.37.5/api/ipc-main/
-
-const ipcRenderer = require('electron').ipcRenderer;
+import electron from 'electron';
+const ipcRenderer = electron.ipcRenderer;
 
 export let message = "yo!";
 
@@ -11,7 +11,7 @@ export function getVersion(){
 };
 
 export function sendMessage(){
-  ipcRenderer.send('message', 'hello from renderer');
+  ipcRenderer.send('message', 'hello from renderer!');
 };
 
 ipcRenderer.on('reply', function(event, arg) {
