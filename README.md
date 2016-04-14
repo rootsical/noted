@@ -1,6 +1,6 @@
 NOTED
 =====
-Application to keep track of notes.
+application to keep track of notes. i am just using this as a learning exercise and am only working on it from time to time..
 
 [SETUP & DEPENDENCIES](./docs/setup_dependencies.md)
 
